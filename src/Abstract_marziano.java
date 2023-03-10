@@ -1,14 +1,13 @@
-public abstract class Abstract_terrestre {
-	protected String nome;
-	protected int vita;
-	protected int velocita;
-	protected int armamento;
-
-	public Abstract_terrestre(String nome, int vita, int velocita, int armamento) {
-		this.nome="sconosciuto";
-		this.vita=50;
-		this.velocita=5;
-		this.armamento=5;
+public abstract class Abstract_marziano {
+    protected String matricola;
+	protected int autonomia;
+	protected int ai;
+	protected int tecnologia;
+	public Abstract_marziano(String matricola, int autonomia, int ai, int tecnologia) {
+		this.matricola = "indefinito";
+		this.autonomia = 50;
+		this.ai = 5;
+		this.tecnologia = 5;
 		}
 
 }
